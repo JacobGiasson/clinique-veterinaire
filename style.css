@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.carte {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.proprio, .animal {
+    flex: 1;
+}
+
+h2 {
+    font-size: 18px;
+    color: #2c3e50;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 6px;
+}
